@@ -53,7 +53,7 @@ def ReleaseKey(hexKeyCode):
 
 # directX scan codes: http://geck.bethsoft.com/index.php?title=Template:DirectX_Scancodes
 def input():
-    # 0x1F means 'q', 0x1c means 'down arrow'
+    # 0x1F means 's', 0x1c means 'enter'
     time.sleep(1)
     PressKey(0x1F)
     time.sleep(0.1)
